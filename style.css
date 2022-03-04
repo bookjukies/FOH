@@ -91,7 +91,6 @@ nav {
 
 .right p {
   color: white;
-  margin-bottom: 5%;
   padding: 0 10% 5% 10%;
   font-style: italic;
 }
@@ -105,4 +104,28 @@ button {
   width: 15rem;
   height: 2rem;
   border: none;
+}
+.middle-top p {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding: 5%;
+  justify-content: center;
+}
+
+.middle-bottom {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  background-color: #a2afc0;
+  font-style: italic;
+}
+.middle-bottom .name {
+  display: flex;
+  justify-content: flex-end;
 }

@@ -20,8 +20,8 @@ customElements.define(`header-component`,HeaderComponent)
 class FooterComponent extends HTMLElement{
     connectedCallback(){
         this.innerHTML =`
-        <div class="footer"><p>Powered by Drip Mall</p></div>
+        <div class="footer"><p>Powered by Dev Familiar</p></div>
         `
     }
 }
-customElements.define(`footer_component`,FooterComponent)
+customElements.define(`footer-component`,FooterComponent)
