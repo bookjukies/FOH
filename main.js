@@ -16,3 +16,12 @@ class HeaderComponent extends HTMLElement {
 }
 
 customElements.define(`header-component`,HeaderComponent)
+
+class FooterComponent extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML =`
+        <div class="footer"><p>Powered by Drip Mall</p></div>
+        `
+    }
+}
+customElements.define(`footer_component`,FooterComponent)
