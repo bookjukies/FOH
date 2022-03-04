@@ -11,6 +11,7 @@ body {
 }
 img {
   width: 100%;
+  border-radius: 10px;
 }
 h2 {
   padding: 0;
@@ -18,7 +19,7 @@ h2 {
   display: flex;
   justify-content: center;
   color: white;
-  margin: 2%;
+  margin-bottom: 4%;
 }
 p {
   padding: 0;
@@ -29,7 +30,7 @@ p {
   width: 90%;
   background-color: whitesmoke;
   margin: 5%;
-  height: 96vh;
+  height: 100vh;
 }
 nav ul {
   display: flex;
@@ -37,7 +38,7 @@ nav ul {
   padding: 0;
   justify-content: center;
   background-color: #1f2937;
-  margin: 0;
+  margin: 2%;
 }
 nav li {
   padding: 0 5%;
@@ -47,6 +48,7 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 nav {
@@ -80,6 +82,7 @@ nav {
 }
 .left img {
   width: 100%;
+  border-radius: 0;
 }
 
 /* music*/
@@ -87,6 +90,7 @@ nav {
   height: 100%;
   width: 100%;
   border: none;
+  margin: 0;
 }
 
 .right p {
@@ -124,8 +128,37 @@ button {
   flex-direction: column;
   background-color: #a2afc0;
   font-style: italic;
+  margin-bottom: 5%;
 }
 .middle-bottom .name {
   display: flex;
   justify-content: flex-end;
+}
+.music {
+  background-color: #3882f6;
+  padding: 5% 2%;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.music .big {
+  font-size: 1.2rem;
+}
+.music .small {
+  font-size: 0.6rem;
+}
+.listen {
+  flex: 3;
+}
+.music button {
+  width: 6rem;
+  border: 1px solid white;
+}
+
+.big-word {
+  font-size: 1.6rem;
+  font-weight: 900;
 }
