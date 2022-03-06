@@ -162,3 +162,16 @@ button {
   font-size: 1.6rem;
   font-weight: 900;
 }
+
+
+.fohmation,
+.litl {
+  width: 100%;
+  margin: 2% 0;
+}
+.fohmation {
+  height: 170vh;
+}
+.litl {
+  height: 70vh;
+}
